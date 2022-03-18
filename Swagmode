@@ -1,0 +1,15 @@
+SWAGMODE Script
+------------------------------------------------------------------------------------------------------------
+Main Script
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+Their Discord - discord.gg/swaggest
+------------------------------------------------------------------------------------------------------------
+Crash Script
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()
+------------------------------------------------------------------------------------------------------------
+
+Credit. 
+Scripting = Lerk#7643
+UI Design = imie#0039 & Lerk#7643
