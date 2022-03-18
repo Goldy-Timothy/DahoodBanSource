@@ -1,0 +1,39 @@
+loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))() 
+
+game:GetService('StarterGui'):SetCore('SendNotification', {Title = "BlackMode", Text = "Red theme by imie#0039, Black theme by Timo_thy#0666", Duration = 100})
+
+for i,v in pairs(game:GetService('CoreGui').Swagmode:GetDescendants()) do
+    if v:IsA('Frame') and v.Name == 'MenuFrame' or v.Name == 'TopLine' or v.Name == 'SideInfo' then
+            v.BackgroundColor3 = Color3.fromRGB(0,0,0)
+    end
+    if v.Name == "SwagmodeFrame" then
+        v.BackgroundColor3 = Color3.fromRGB(0,0,0)
+    end
+    if v:IsA('ImageLabel') then
+        v.BackgroundColor3 = Color3.fromRGB(0,0,0)
+    end
+    if v.Name == "DropShadowHolder" then
+        v:Destroy()
+    end
+    if v.Name == "UIGradient" then
+        v:Destroy()
+    end
+  if v:IsA('TextLabel') then
+        v.BackgroundColor3 = Color3.fromRGB(0,0,0)
+        v.TextColor3 = Color3.fromRGB(255,0,0)
+  end
+ if v:IsA('TextBox') then
+        v.BackgroundColor3 = Color3.fromRGB(0,0,0)
+        v.TextColor3 = Color3.fromRGB(255,0,0)
+      end
+end
+
+
+while wait() do
+for i,v in pairs(game:GetService('CoreGui').Swagmode:GetDescendants()) do
+    if v:IsA('TextButton') then
+        v.BackgroundColor3 = Color3.fromRGB(160,10,10)
+        v.TextColor3 = Color3.fromRGB(255,255,255)
+    end
+    end
+end
