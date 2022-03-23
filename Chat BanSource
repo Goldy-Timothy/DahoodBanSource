@@ -1,3 +1,5 @@
+--synapse only
+
 local Chathax = Instance.new("ScreenGui")
 local MainFrame = Instance.new("Frame")
 local run = Instance.new("TextButton")
